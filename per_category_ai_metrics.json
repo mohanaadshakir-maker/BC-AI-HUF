@@ -1,0 +1,29 @@
+{
+  "per_category": {
+    "DoS": {
+      "n_samples": 7460,
+      "detection_rate_recall": 0.8576407506702413,
+      "auc_vs_normal": 0.9861307262458785,
+      "false_positive_rate_on_normal": 0.028009473792606324
+    },
+    "Probe": {
+      "n_samples": 2421,
+      "detection_rate_recall": 0.7121024370095002,
+      "auc_vs_normal": 0.9795710234789974,
+      "false_positive_rate_on_normal": 0.028009473792606324
+    },
+    "R2L": {
+      "n_samples": 2885,
+      "detection_rate_recall": 0.06689774696707106,
+      "auc_vs_normal": 0.9061395116081801,
+      "false_positive_rate_on_normal": 0.028009473792606324
+    },
+    "U2R": {
+      "n_samples": 67,
+      "detection_rate_recall": 0.1791044776119403,
+      "auc_vs_normal": 0.9463325940578234,
+      "false_positive_rate_on_normal": 0.028009473792606324
+    }
+  },
+  "overall_false_positive_rate": 0.028009473792606324
+}

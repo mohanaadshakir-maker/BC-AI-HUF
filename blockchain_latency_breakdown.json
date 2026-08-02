@@ -1,0 +1,9 @@
+{
+  "n_blocks_with_tx": 26,
+  "n_tx_committed": 4599,
+  "mean_propagation_ms": 71.38938456878927,
+  "mean_consensus_ms": 329.4600965912379,
+  "mean_per_tx_execution_ms": 12.414333120596249,
+  "mean_end_to_end_latency_ms": 3809.4788275582373,
+  "p95_end_to_end_latency_ms": 5018.804909349549
+}

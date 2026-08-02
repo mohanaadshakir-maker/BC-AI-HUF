@@ -1,0 +1,109 @@
+{
+  "summary": {
+    "xgboost": {
+      "n_known_attack_samples": 9083,
+      "n_novel_attack_samples": 3750,
+      "n_normal_samples": 9711,
+      "detection_rate_known_attacks": 0.7743036441704283,
+      "detection_rate_novel_attacks": 0.3450666666666667,
+      "gap_known_minus_novel": 0.4292369775037616,
+      "overall_accuracy": 0.7880589070262598
+    },
+    "attention_net": {
+      "n_known_attack_samples": 9083,
+      "n_novel_attack_samples": 3750,
+      "n_normal_samples": 9711,
+      "detection_rate_known_attacks": 0.7752945062204117,
+      "detection_rate_novel_attacks": 0.4493333333333333,
+      "gap_known_minus_novel": 0.32596117288707843,
+      "overall_accuracy": 0.7920954577714692
+    }
+  },
+  "per_novel_attack_type": {
+    "apache2": {
+      "n_samples": 737,
+      "xgboost_detection_rate": 0.7014925373134329,
+      "attention_net_detection_rate": 0.8154681139755766
+    },
+    "httptunnel": {
+      "n_samples": 133,
+      "xgboost_detection_rate": 0.015037593984962405,
+      "attention_net_detection_rate": 0.03007518796992481
+    },
+    "mailbomb": {
+      "n_samples": 293,
+      "xgboost_detection_rate": 0.0,
+      "attention_net_detection_rate": 0.0
+    },
+    "mscan": {
+      "n_samples": 996,
+      "xgboost_detection_rate": 0.30120481927710846,
+      "attention_net_detection_rate": 0.6475903614457831
+    },
+    "named": {
+      "n_samples": 17,
+      "xgboost_detection_rate": 0.17647058823529413,
+      "attention_net_detection_rate": 0.058823529411764705
+    },
+    "processtable": {
+      "n_samples": 685,
+      "xgboost_detection_rate": 0.2116788321167883,
+      "attention_net_detection_rate": 0.15182481751824817
+    },
+    "ps": {
+      "n_samples": 15,
+      "xgboost_detection_rate": 0.13333333333333333,
+      "attention_net_detection_rate": 0.3333333333333333
+    },
+    "saint": {
+      "n_samples": 319,
+      "xgboost_detection_rate": 0.9968652037617555,
+      "attention_net_detection_rate": 0.9686520376175548
+    },
+    "sendmail": {
+      "n_samples": 14,
+      "xgboost_detection_rate": 0.0,
+      "attention_net_detection_rate": 0.0
+    },
+    "snmpgetattack": {
+      "n_samples": 178,
+      "xgboost_detection_rate": 0.0,
+      "attention_net_detection_rate": 0.016853932584269662
+    },
+    "snmpguess": {
+      "n_samples": 331,
+      "xgboost_detection_rate": 0.0,
+      "attention_net_detection_rate": 0.006042296072507553
+    },
+    "sqlattack": {
+      "n_samples": 2,
+      "xgboost_detection_rate": 0.5,
+      "attention_net_detection_rate": 1.0
+    },
+    "udpstorm": {
+      "n_samples": 2,
+      "xgboost_detection_rate": 1.0,
+      "attention_net_detection_rate": 0.5
+    },
+    "worm": {
+      "n_samples": 2,
+      "xgboost_detection_rate": 0.0,
+      "attention_net_detection_rate": 0.0
+    },
+    "xlock": {
+      "n_samples": 9,
+      "xgboost_detection_rate": 0.0,
+      "attention_net_detection_rate": 0.1111111111111111
+    },
+    "xsnoop": {
+      "n_samples": 4,
+      "xgboost_detection_rate": 0.25,
+      "attention_net_detection_rate": 0.25
+    },
+    "xterm": {
+      "n_samples": 13,
+      "xgboost_detection_rate": 0.23076923076923078,
+      "attention_net_detection_rate": 0.46153846153846156
+    }
+  }
+}

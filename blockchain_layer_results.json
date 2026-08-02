@@ -1,0 +1,144 @@
+{
+  "parameters": {
+    "n_nodes": 5,
+    "quorum": 4,
+    "block_time_s": 2.0,
+    "net_latency_range_s": [
+      0.02,
+      0.15
+    ],
+    "contract_exec_range_s": [
+      0.08,
+      0.35
+    ],
+    "consensus_rounds": 2
+  },
+  "latency_at_100tps": {
+    "without_blockchain_mean_ms": 49.9193631092054,
+    "with_blockchain_mean_ms": 13640.646783776936,
+    "with_blockchain_p95_ms": 23556.23457308916,
+    "latency_increase_pct": 27225.36221252696
+  },
+  "throughput_latency_sweep": [
+    {
+      "offered_tps": 50,
+      "achieved_tps": 41.825,
+      "mean_latency_s": 4.491930338333246,
+      "p95_latency_s": 6.040933042382362,
+      "n_committed": 1673
+    },
+    {
+      "offered_tps": 100,
+      "achieved_tps": 61.625,
+      "mean_latency_s": 10.388932351499571,
+      "p95_latency_s": 16.13841642684388,
+      "n_committed": 2465
+    },
+    {
+      "offered_tps": 150,
+      "achieved_tps": 60.975,
+      "mean_latency_s": 13.275946698657382,
+      "p95_latency_s": 23.372082636554488,
+      "n_committed": 2439
+    },
+    {
+      "offered_tps": 200,
+      "achieved_tps": 60.525,
+      "mean_latency_s": 14.8251827831058,
+      "p95_latency_s": 26.865855114323537,
+      "n_committed": 2421
+    },
+    {
+      "offered_tps": 250,
+      "achieved_tps": 60.0,
+      "mean_latency_s": 15.922539744885519,
+      "p95_latency_s": 29.483702369036145,
+      "n_committed": 2400
+    },
+    {
+      "offered_tps": 300,
+      "achieved_tps": 61.15,
+      "mean_latency_s": 16.162470474163772,
+      "p95_latency_s": 28.240272687573775,
+      "n_committed": 2446
+    },
+    {
+      "offered_tps": 350,
+      "achieved_tps": 62.325,
+      "mean_latency_s": 17.34805653566956,
+      "p95_latency_s": 30.633236057847977,
+      "n_committed": 2493
+    },
+    {
+      "offered_tps": 400,
+      "achieved_tps": 64.775,
+      "mean_latency_s": 18.07062371976397,
+      "p95_latency_s": 32.26364688299603,
+      "n_committed": 2591
+    },
+    {
+      "offered_tps": 450,
+      "achieved_tps": 65.6,
+      "mean_latency_s": 18.23125844864764,
+      "p95_latency_s": 32.72661863324298,
+      "n_committed": 2624
+    },
+    {
+      "offered_tps": 500,
+      "achieved_tps": 65.325,
+      "mean_latency_s": 18.46692657843105,
+      "p95_latency_s": 33.35719469439603,
+      "n_committed": 2613
+    },
+    {
+      "offered_tps": 600,
+      "achieved_tps": 65.275,
+      "mean_latency_s": 19.123057812699564,
+      "p95_latency_s": 34.352703172533985,
+      "n_committed": 2611
+    },
+    {
+      "offered_tps": 700,
+      "achieved_tps": 65.95,
+      "mean_latency_s": 19.398638044189433,
+      "p95_latency_s": 34.84322350905597,
+      "n_committed": 2638
+    },
+    {
+      "offered_tps": 800,
+      "achieved_tps": 65.825,
+      "mean_latency_s": 19.341029496423907,
+      "p95_latency_s": 35.222116340208366,
+      "n_committed": 2633
+    },
+    {
+      "offered_tps": 900,
+      "achieved_tps": 65.275,
+      "mean_latency_s": 19.480671285456797,
+      "p95_latency_s": 35.58836559484283,
+      "n_committed": 2611
+    },
+    {
+      "offered_tps": 1000,
+      "achieved_tps": 65.95,
+      "mean_latency_s": 19.78010187253028,
+      "p95_latency_s": 35.687804679043516,
+      "n_committed": 2638
+    }
+  ],
+  "saturation_point_tps_over_5s_latency": 100,
+  "throughput_drop_pct_at_saturation_vs_offered": 38.375,
+  "availability_model": {
+    "per_node_uptime_assumption": 0.999,
+    "quorum_required": 4,
+    "n_nodes": 5,
+    "system_availability_with_blockchain": 0.999990019985004,
+    "baseline_availability_without_blockchain": 0.999,
+    "availability_gain_pct_points": 0.09900199850040314
+  },
+  "storage_growth_gb_per_day": {
+    "with_blockchain": 2.088703215122223,
+    "without_blockchain_plain_db": 0.5569875240325928,
+    "increase_pct": 275.0
+  }
+}
