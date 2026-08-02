@@ -1,0 +1,24 @@
+{
+  "xgboost": {
+    "model": "XGBoost",
+    "accuracy": 0.7880589070262598,
+    "auc_roc": 0.9667025200988373,
+    "precision": 0.9683684149319688,
+    "recall": 0.6488739967271877,
+    "f1": 0.7770623366927958,
+    "false_alarm_rate": 0.028009473792606324,
+    "mean_detection_time_ms_per_sample": 7.651991482000085,
+    "n_test": 22544
+  },
+  "attention_net": {
+    "model": "AttentionNet",
+    "accuracy": 0.7920954577714692,
+    "auc_roc": 0.9251483071552564,
+    "precision": 0.9375805758487322,
+    "recall": 0.6800436374970779,
+    "f1": 0.7883112777200668,
+    "false_alarm_rate": 0.05982905982905983,
+    "mean_detection_time_ms_per_sample": 0.07398647999980312,
+    "n_test": 22544
+  }
+}

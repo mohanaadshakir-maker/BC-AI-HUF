@@ -1,0 +1,36 @@
+{
+  "n_weight_combinations_tested": 34,
+  "weight_grid_step": 0.1,
+  "weight_range_per_component": [
+    0.1,
+    0.7
+  ],
+  "SEI_ranges_by_scenario": {
+    "AI_only": {
+      "min": 0.1787,
+      "max": 0.8569,
+      "mean": 0.5834
+    },
+    "AI_plus_Blockchain": {
+      "min": 0.1788,
+      "max": 0.8576,
+      "mean": 0.5837
+    },
+    "AI_plus_HumanFactor": {
+      "min": 0.8222,
+      "max": 0.9488,
+      "mean": 0.8796
+    },
+    "Full_Framework": {
+      "min": 0.8223,
+      "max": 0.9495,
+      "mean": 0.8799
+    }
+  },
+  "full_framework_ranked_first_in_all_combinations": true,
+  "baseline_weights_used_elsewhere_in_paper": {
+    "detection": 0.5,
+    "availability": 0.25,
+    "adaptation": 0.25
+  }
+}

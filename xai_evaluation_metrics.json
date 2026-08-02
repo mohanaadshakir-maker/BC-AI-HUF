@@ -1,0 +1,48 @@
+{
+  "_metadata": {
+    "n_instances_SHAP_Ensemble": 300,
+    "n_instances_LIME": 150,
+    "n_instances_Attention_IG": 1000,
+    "top_k_features": 15
+  },
+  "SHAP": {
+    "fidelity_score_1_minus_error": 0.5314674664369998,
+    "fidelity_correlation": 0.594979967752392,
+    "stability_mean_cosine_similarity": -0.029915892280355832,
+    "stability_std": 0.3597124752415907,
+    "completeness_score_1_minus_meandiff": 0.9809299153120395,
+    "complexity_proxy_1_minus_norm_entropy": 0.4393895139555596
+  },
+  "LIME": {
+    "fidelity_score_1_minus_error": 0.31242648310166277,
+    "fidelity_correlation": 0.02253272078791575,
+    "stability_mean_cosine_similarity": -0.04548485568980389,
+    "stability_std": 0.18041519458557442,
+    "completeness_score_1_minus_meandiff": 0.7079732859169465,
+    "complexity_proxy_1_minus_norm_entropy": 0.17149036130529605
+  },
+  "Attention": {
+    "fidelity_score_1_minus_error": 0.32668745345706707,
+    "fidelity_correlation": 0.046814772536893055,
+    "stability_mean_cosine_similarity": -0.031646003796555286,
+    "stability_std": 0.12702955242174926,
+    "completeness_score_1_minus_meandiff": 0.9101815704702463,
+    "complexity_proxy_1_minus_norm_entropy": 0.008546954268631116
+  },
+  "IntegratedGradients": {
+    "fidelity_score_1_minus_error": 0.7151514302242127,
+    "fidelity_correlation": 0.37947044264541485,
+    "stability_mean_cosine_similarity": 0.13708420467953095,
+    "stability_std": 0.23191734003815961,
+    "completeness_score_1_minus_meandiff": 0.976134283686705,
+    "complexity_proxy_1_minus_norm_entropy": 0.43815725186884946
+  },
+  "Integrated_SHAP_Attention_IG": {
+    "fidelity_score_1_minus_error": 0.5703826185670917,
+    "fidelity_correlation": 0.850214268781261,
+    "stability_mean_cosine_similarity": -0.002608099122111207,
+    "stability_std": 0.26242853335309196,
+    "completeness_score_1_minus_meandiff": 0.948455307625183,
+    "complexity_proxy_1_minus_norm_entropy": 0.06972530879552362
+  }
+}

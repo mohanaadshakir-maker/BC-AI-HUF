@@ -1,0 +1,25 @@
+{
+  "weights": {
+    "detection": 0.5,
+    "availability": 0.25,
+    "adaptation": 0.25
+  },
+  "inputs": {
+    "detection_accuracy_xgboost": 0.7880589070262598,
+    "availability_with_blockchain": 0.999990019985004,
+    "availability_without_blockchain": 0.999,
+    "final_UAI_week12": 0.853256938356032,
+    "initial_UAI_week0": 0.28385658988397766
+  },
+  "SEI_by_scenario": {
+    "AI_only": 0.6437794535131299,
+    "AI_plus_Blockchain": 0.644026958509381,
+    "AI_plus_HumanFactor": 0.8570936881021379,
+    "Full_Framework_BC_AI_HUF": 0.857341193098389
+  },
+  "SEI_full_framework_week0_vs_week12": {
+    "week0": 0.7149911059803754,
+    "week12": 0.857341193098389
+  },
+  "note": "Detection accuracy is held constant across scenarios because neither blockchain nor human-factor layers mechanically change what the trained classifier learned; the composite index instead shows that the FULL framework's combined security posture (detection + availability + user adaptation) exceeds any single-layer or two-layer subset, which is the honest form of the 'synergy' claim -- complementary capability, not mutual accuracy inflation."
+}
